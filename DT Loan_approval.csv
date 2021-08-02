@@ -1,0 +1,8 @@
+Age,Income,Loan Approved
+youth,high,yes
+middle,high,yes
+senior,low,no
+middle,low,no
+youth,medium,no
+youth,low,no
+senior,high,no

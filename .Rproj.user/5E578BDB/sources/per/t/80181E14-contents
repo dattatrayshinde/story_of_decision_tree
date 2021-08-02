@@ -1,0 +1,16 @@
+install_required_packages <- function(x){
+  list.of.packages <- c("rpart")
+  new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
+  if(length(new.packages)) install.packages(new.packages)
+  library(list.of.packages)
+}
+
+read_csv <- function(x){
+  compPurchase<- read.csv("DT_Loan_approval.csv",header = TRUE)
+  compPurchase
+}
+
+choose_csv_to_read<- function(x){
+  compPurchase<- read.csv(file.choose(),header = TRUE)
+  compPurchase
+}

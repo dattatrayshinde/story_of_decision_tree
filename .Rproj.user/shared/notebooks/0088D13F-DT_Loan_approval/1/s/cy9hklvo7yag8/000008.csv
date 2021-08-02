@@ -1,0 +1,18 @@
+"0","if(!exists(""read_csv"", mode=""function"")){"
+"0","  print(""Loading helper ..."")"
+"0","  source(""./helper.r"")"
+"0","}"
+"0","print(""Loaded helper functions ..."")  "
+"1","[1]"
+"1"," ""Loaded helper functions ..."""
+"1","
+"
+"0","library(""rpart"")"
+"0","compLA<- read_csv()"
+"2","Warning in file(file, ""rt"") :"
+"2","
+ "
+"2"," cannot open file 'DT Computer purchase.csv': No such file or directory
+"
+"2","Error in file(file, ""rt"") : cannot open the connection
+"
